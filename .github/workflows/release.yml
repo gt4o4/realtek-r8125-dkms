@@ -10,9 +10,9 @@ permissions:
   contents: write
 
 env:
-  PACKAGE_NAME: realtek-r8126-dkms
-  VERSION_HEADER: src/r8126.h
-  VERSION_MACRO: RTL8126_VERSION
+  PACKAGE_NAME: realtek-r8125-dkms
+  VERSION_HEADER: src/r8125.h
+  VERSION_MACRO: RTL8125_VERSION
 
 concurrency:
   group: draft-release-${{ github.ref }}
